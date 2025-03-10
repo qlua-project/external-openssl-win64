@@ -1,3 +1,9 @@
 [submodule "openssl"]
 	path = src
 	url = https://github.com/openssl/openssl
+[submodule "perl"]
+	path = externals/perl
+	url = https://github.com/ivansoft/strawberry-perl-win64-portable
+[submodule "nasm"]
+	path = externals/nasm
+	url = https://github.com/ivansoft/nasm-win64-bin
