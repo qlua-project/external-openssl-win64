@@ -29,3 +29,13 @@ Default Compiler Options
   -D"ENGINESDIR=\"C:\\Program Files\\OpenSSL\\lib\\engines-3\""
   -D"MODULESDIR=\"C:\\Program Files\\OpenSSL\\lib\\ossl-modules\""
 
+
+"cl" /Zs /showIncludes /Zi /Fdapp.pdb /Gs0 /GF /Gy /MD /W3 /wd4090 /nologo /O2
+  -D"OPENSSL_BUILDING_OPENSSL"
+  -D"OPENSSL_SYS_WIN32"
+  -D"WIN32_LEAN_AND_MEAN"
+  -D"UNICODE" -D"_UNICODE"
+  -D"_CRT_SECURE_NO_DEPRECATE" -D"_WINSOCK_DEPRECATED_NO_WARNINGS"
+  -D"NDEBUG"
+
+  -I"include" -I"apps\include"
