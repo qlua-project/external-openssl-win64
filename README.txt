@@ -39,3 +39,10 @@ Default Compiler Options
   -D"NDEBUG"
 
   -I"include" -I"apps\include"
+
+
+"link" /nologo /debug /dll  /nologo /debug
+  /implib:libssl.lib
+
+  @C:\Users\ivansoft\AppData\Local\Temp\nm149A.tmp
+
