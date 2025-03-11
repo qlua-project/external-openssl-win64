@@ -1,0 +1,327 @@
+**********************************************************************
+***  Configuration Dump                                            ***
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Perl executable: C:\external_openssl\externals\perl\perl\bin\perl.exe
+Perl version   : v5.40.0 / MSWin32-x64-multi-thread
+
+Configuring OpenSSL version 3.5.0-dev for target VC-WIN64A
+Using os-specific seed configuration
+Created configdata.pm
+Running configdata.pm
+Created makefile.in
+Created makefile
+
+
+perl configdata.pm --dump
+
+
+Command line (with current working directory = .):
+
+    C:\external_openssl\externals\perl\perl\bin\perl.exe Configure --prefix=C:\external_openssl\ --openssldir=C:\external_openssl\ssl VC-WIN64A
+
+Perl information:
+
+    C:\external_openssl\externals\perl\perl\bin\perl.exe
+    5.40.0 for MSWin32-x64-multi-thread
+
+Enabled features:
+
+    apps
+    argon2
+    aria
+    asm
+    async
+    atexit
+    autoalginit
+    autoerrinit
+    autoload-config
+    bf
+    blake2
+    bulk
+    cached-fetch
+    camellia
+    capieng
+    winstore
+    cast
+    chacha
+    cmac
+    cmp
+    cms
+    comp
+    ct
+    default-thread-pool
+    deprecated
+    des
+    dgram
+    dh
+    docs
+    dsa
+    dso
+    dtls
+    dynamic-engine
+    ec
+    ec2m
+    ecdh
+    ecdsa
+    ecx
+    engine
+    err
+    filenames
+    gost
+    http
+    idea
+    integrity-only-ciphers
+    legacy
+    loadereng
+    makedepend
+    md4
+    mdc2
+    ml-dsa
+    ml-kem
+    module
+    multiblock
+    nextprotoneg
+    ocb
+    ocsp
+    padlockeng
+    pic
+    pinshared
+    poly1305
+    posix-io
+    psk
+    quic
+    unstable-qlog
+    rc2
+    rc4
+    rdrand
+    rfc3779
+    rmd160
+    scrypt
+    secure-memory
+    seed
+    shared
+    siphash
+    siv
+    slh-dsa
+    sm2
+    sm2-precomp
+    sm3
+    sm4
+    sock
+    srp
+    srtp
+    sse2
+    ssl
+    ssl-trace
+    static-engine
+    stdio
+    tests
+    thread-pool
+    threads
+    tls
+    tls-deprecated-ec
+    ts
+    ui-console
+    uplink
+    whirlpool
+    tls1
+    tls1-method
+    tls1_1
+    tls1_1-method
+    tls1_2
+    tls1_2-method
+    tls1_3
+    dtls1
+    dtls1-method
+    dtls1_2
+    dtls1_2-method
+
+Disabled features:
+
+    acvp-tests             [cascade]   OPENSSL_NO_ACVP_TESTS
+    afalgeng               [not-linux] OPENSSL_NO_AFALGENG
+    asan                   [default]   OPENSSL_NO_ASAN
+    brotli                 [default]   OPENSSL_NO_BROTLI
+    brotli-dynamic         [default]   OPENSSL_NO_BROTLI_DYNAMIC
+    buildtest-c++          [default]   
+    crypto-mdebug          [default]   OPENSSL_NO_CRYPTO_MDEBUG
+    demos                  [default]   OPENSSL_NO_DEMOS
+    h3demo                 [default]   OPENSSL_NO_H3DEMO
+    hqinterop              [default]   OPENSSL_NO_HQINTEROP
+    devcryptoeng           [default]   OPENSSL_NO_DEVCRYPTOENG
+    ec_nistp_64_gcc_128    [default]   OPENSSL_NO_EC_NISTP_64_GCC_128
+    egd                    [default]   OPENSSL_NO_EGD
+    external-tests         [default]   OPENSSL_NO_EXTERNAL_TESTS
+    fips                   [default]   
+    fips-securitychecks    [cascade]   OPENSSL_NO_FIPS_SECURITYCHECKS
+    fips-post              [cascade]   OPENSSL_NO_FIPS_POST
+    fips-jitter            [default]   OPENSSL_NO_FIPS_JITTER
+    fuzz-afl               [default]   OPENSSL_NO_FUZZ_AFL
+    fuzz-libfuzzer         [default]   OPENSSL_NO_FUZZ_LIBFUZZER
+    jitter                 [default]   OPENSSL_NO_JITTER
+    ktls                   [default]   OPENSSL_NO_KTLS
+    md2                    [default]   OPENSSL_NO_MD2 (skip crypto\md2)
+    msan                   [default]   OPENSSL_NO_MSAN
+    pie                    [default]   OPENSSL_NO_PIE
+    rc5                    [default]   OPENSSL_NO_RC5 (skip crypto\rc5)
+    sctp                   [default]   OPENSSL_NO_SCTP
+    sslkeylog              [default]   OPENSSL_NO_SSLKEYLOG
+    tfo                    [default]   OPENSSL_NO_TFO
+    trace                  [default]   OPENSSL_NO_TRACE
+    ubsan                  [default]   OPENSSL_NO_UBSAN
+    unit-test              [default]   OPENSSL_NO_UNIT_TEST
+    weak-ssl-ciphers       [default]   OPENSSL_NO_WEAK_SSL_CIPHERS
+    zlib                   [default]   OPENSSL_NO_ZLIB
+    zlib-dynamic           [default]   OPENSSL_NO_ZLIB_DYNAMIC
+    zstd                   [default]   OPENSSL_NO_ZSTD
+    zstd-dynamic           [default]   OPENSSL_NO_ZSTD_DYNAMIC
+    ssl3                   [default]   OPENSSL_NO_SSL3
+    ssl3-method            [default]   OPENSSL_NO_SSL3_METHOD
+
+Config target attributes:
+
+    AR => "lib",
+    ARFLAGS => "/nologo",
+    AS => "nasm",
+    ASFLAGS => "-g",
+    CC => "cl",
+    CFLAGS => "/W3 /wd4090 /nologo /O2",
+    CPP => "\$(CC) /EP /C",
+    HASHBANGPERL => "/usr/bin/env perl",
+    LD => "link",
+    LDFLAGS => "/nologo /debug",
+    MT => "mt",
+    MTFLAGS => "-nologo",
+    RANLIB => "CODE(0x2eb896922d8)",
+    RC => "rc",
+    ar_resp_delim => "
+",
+    aroutflag => "/out:",
+    asflags => "-Ox -f win64 -DNEAR",
+    asm_arch => "x86_64",
+    asoutflag => "-o ",
+    bin_cflags => "/Zi /Fdapp.pdb",
+    bin_lflags => "setargv.obj /subsystem:console /opt:ref",
+    bn_ops => "SIXTY_FOUR_BIT",
+    build_file => "makefile",
+    build_scheme => [ "unified", "windows", "VC-common" ],
+    cflags => "/Gs0 /GF /Gy /MD",
+    coutflag => "/Fo",
+    cppflags => "",
+    defines => [ "OPENSSL_BUILDING_OPENSSL", "OPENSSL_SYS_WIN32", "WIN32_LEAN_AND_MEAN", "UNICODE", "_UNICODE", "_CRT_SECURE_NO_DEPRECATE", "_WINSOCK_DEPRECATED_NO_WARNINGS" ],
+    disable => [  ],
+    dso_cflags => "/Zi /Fddso.pdb",
+    dso_scheme => "win32",
+    enable => [  ],
+    ex_libs => "ws2_32.lib gdi32.lib advapi32.lib crypt32.lib user32.lib",
+    includes => [  ],
+    ld_implib_flag => "/implib:",
+    ld_resp_delim => "
+",
+    lddefflag => "/def:",
+    ldoutflag => "/out:",
+    ldpostoutflag => "",
+    ldresflag => " ",
+    lflags => "",
+    lib_cflags => "/Zi /Fdossl_static.pdb",
+    lib_cppflags => "",
+    lib_defines => [ "L_ENDIAN" ],
+    makedep_scheme => "VC",
+    makedepcmd => "\$(CC) /Zs /showIncludes",
+    module_cflags => "",
+    module_cxxflags => undef,
+    module_ldflags => "/dll",
+    mtinflag => "-manifest ",
+    mtoutflag => "-outputresource:",
+    multilib => "-x64",
+    perl_platform => "Windows::MSVC",
+    perlasm_scheme => "nasm",
+    rcoutflag => "/fo",
+    shared_cflag => "",
+    shared_defflag => "",
+    shared_defines => [  ],
+    shared_ldflag => "/dll",
+    shared_rcflag => "",
+    shared_target => "win-shared",
+    sys_id => "WIN64A",
+    thread_defines => [  ],
+    thread_scheme => "winthreads",
+    unistd => "<unistd.h>",
+    uplink_arch => "x86_64",
+
+Recorded environment:
+
+    AR = 
+    ARFLAGS = 
+    AS = 
+    ASFLAGS = 
+    BUILDFILE = 
+    CC = 
+    CFLAGS = 
+    CPP = 
+    CPPDEFINES = 
+    CPPFLAGS = 
+    CPPINCLUDES = 
+    CROSS_COMPILE = 
+    CXX = 
+    CXXFLAGS = 
+    HASHBANGPERL = 
+    LD = 
+    LDFLAGS = 
+    LDLIBS = 
+    MT = 
+    MTFLAGS = 
+    OBJCOPY = 
+    OPENSSL_LOCAL_CONFIG_DIR = 
+    PERL = 
+    RANLIB = 
+    RC = 
+    RCFLAGS = 
+    RM = 
+    WINDRES = 
+    __CNF_CFLAGS = 
+    __CNF_CPPDEFINES = 
+    __CNF_CPPFLAGS = 
+    __CNF_CPPINCLUDES = 
+    __CNF_CXXFLAGS = 
+    __CNF_LDFLAGS = 
+    __CNF_LDLIBS = 
+
+Makevars:
+
+    AR              = lib
+    ARFLAGS         = /nologo
+    AS              = nasm
+    ASFLAGS         = -g
+    CC              = cl
+    CFLAGS          = /W3 /wd4090 /nologo /O2
+    CPP             = $(CC) /EP /C
+    CPPDEFINES      = 
+    CPPFLAGS        = 
+    CPPINCLUDES     = 
+    CXXFLAGS        = 
+    HASHBANGPERL    = /usr/bin/env perl
+    LD              = link
+    LDFLAGS         = /nologo /debug
+    LDLIBS          = 
+    MT              = mt
+    MTFLAGS         = -nologo
+    PERL            = C:\external_openssl\externals\perl\perl\bin\perl.exe
+    RANLIB          = ranlib
+    RC              = rc
+    RCFLAGS         = 
+
+NOTE: These variables only represent the configuration view.  The build file
+template may have processed these variables further, please have a look at the
+build file for more exact data:
+    makefile
+
+build file:
+
+    makefile
+
+build file templates:
+
+    Configurations\common0.tmpl
+    Configurations\windows-makefile.tmpl
