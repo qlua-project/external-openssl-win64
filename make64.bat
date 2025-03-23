@@ -15,7 +15,7 @@ if /I "%1" == "/ENV" goto EOF
 
 set INSTALL_DIR=%~dp0
 
-pushd "%~dp0\src"
+pushd "%~dp0src"
 
 set "_CONFIGBUILD="
 if /I "%1" == "/BUILD" goto BUILD
