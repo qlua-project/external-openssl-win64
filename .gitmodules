@@ -1,6 +1,7 @@
 [submodule "openssl"]
 	path = src
 	url = https://github.com/openssl/openssl
+	branch = openssl-3.4
 [submodule "perl"]
 	path = externals/perl
 	url = https://github.com/ivansoft/strawberry-perl-win64-portable
