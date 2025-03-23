@@ -1,0 +1,226 @@
+Microsoft (R) COFF/PE Dumper Version 14.43.34808.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file lib\engines-3\capi.dll
+
+File Type: DLL
+
+  Section contains the following imports:
+
+    libcrypto-3-x64.dll
+             180012430 Import Address Table
+             180012D18 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         4BD DSA_meth_set_finish
+                         842 EVP_PKEY_assign
+                         8C4 EVP_PKEY_new
+                        1398 X509_free
+                        150B d2i_X509
+                        13F0 X509_set_ex_data
+                        13B2 X509_get_ex_data
+                        13BB X509_get_issuer_name
+                        13C5 X509_get_subject_name
+                        124B X509_NAME_cmp
+                        125D X509_NAME_print_ex
+                        13E7 X509_print_ex
+                         E52 PEM_write_bio_X509
+                         645 ERR_new
+                         65A ERR_set_debug
+                         65B ERR_set_error
+                         615 ERR_add_error_data
+                         4BC DSA_meth_set_bn_mod_exp
+                         65E ERR_unload_strings
+                         623 ERR_get_next_error_library
+                         602 ENGINE_set_id
+                         607 ENGINE_set_name
+                         5EE ENGINE_set_RSA
+                         5EB ENGINE_set_DSA
+                         5FD ENGINE_set_destroy_function
+                         603 ENGINE_set_init_function
+                         600 ENGINE_set_finish_function
+                         5F1 ENGINE_set_ctrl_function
+                         604 ENGINE_set_load_privkey_function
+                         606 ENGINE_set_load_ssl_client_cert_function
+                         601 ENGINE_set_flags
+                         5F0 ENGINE_set_cmd_defns
+                         5FF ENGINE_set_ex_data
+                         5B8 ENGINE_get_ex_data
+                         5CC ENGINE_get_static_state
+                        138B X509_check_purpose
+                         4C1 DSA_meth_set_mod_exp
+                         4B4 DSA_meth_get_mod_exp
+                         4C5 DSA_meth_set_verify
+                         4B8 DSA_meth_get_verify
+                         4C3 DSA_meth_set_sign
+                         4AC DSA_meth_free
+                         4B9 DSA_meth_new
+                         4A0 DSA_get0_engine
+                         4CB DSA_set0_key
+                         4CC DSA_set0_pqg
+                         4A9 DSA_get_ex_data
+                         4CE DSA_set_ex_data
+                         49C DSA_free
+                         4C7 DSA_new_method
+                         492 DSA_OpenSSL
+                         496 DSA_SIG_set0
+                         495 DSA_SIG_new
+                         FCC RSA_meth_set_sign
+                         FC2 RSA_meth_set_finish
+                         FC1 RSA_meth_set_bn_mod_exp
+                         FB1 RSA_meth_get_bn_mod_exp
+                         FC6 RSA_meth_set_mod_exp
+                         FB6 RSA_meth_get_mod_exp
+                         FC8 RSA_meth_set_priv_dec
+                         FC9 RSA_meth_set_priv_enc
+                         FCA RSA_meth_set_pub_dec
+                         FBA RSA_meth_get_pub_dec
+                         FCB RSA_meth_set_pub_enc
+                         FBB RSA_meth_get_pub_enc
+                         FAE RSA_meth_free
+                         FBE RSA_meth_new
+                         FA9 RSA_get_ex_data
+                         FEC RSA_set_ex_data
+                         F86 RSA_PKCS1_OpenSSL
+                         F95 RSA_free
+                         F9E RSA_get0_engine
+                         FE9 RSA_set0_key
+                         FF2 RSA_size
+                         FCF RSA_new_method
+                         1EF BIO_snprintf
+                         1FC BIO_vprintf
+                         1CD BIO_printf
+                         17E BIO_free
+                         1C0 BIO_new_fp
+                         1BF BIO_new_file
+                         256 BN_free
+                         2B8 BN_set_word
+                         240 BN_bin2bn
+                         298 BN_new
+                         B37 OPENSSL_init_crypto
+                         4AF DSA_meth_get_bn_mod_exp
+                         B2B OPENSSL_cleanse
+                         3C5 CRYPTO_free
+                         3F6 CRYPTO_strdup
+                         3F9 CRYPTO_zalloc
+                         3D6 CRYPTO_malloc
+                         3F5 CRYPTO_set_mem_functions
+                         3D4 CRYPTO_get_ex_new_index
+                         B4B OPENSSL_sk_push
+                         B42 OPENSSL_sk_free
+                         B46 OPENSSL_sk_new_null
+                         B52 OPENSSL_sk_value
+                         643 ERR_load_strings
+                         B48 OPENSSL_sk_num
+
+    ADVAPI32.dll
+             180012000 Import Address Table
+             1800128E8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          C2 CryptAcquireContextW
+                          DC CryptReleaseContext
+                          C8 CryptDestroyKey
+                          DD CryptSetHashParam
+                          D7 CryptGetProvParam
+                          D8 CryptGetUserKey
+                          D0 CryptExportKey
+                          C5 CryptDecrypt
+                          C4 CryptCreateHash
+                          C7 CryptDestroyHash
+                          E5 CryptSignHashW
+                          CF CryptEnumProvidersW
+
+    CRYPT32.dll
+             1800120C8 Import Address Table
+             1800129B0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          12 CertCloseStore
+                          2C CertEnumCertificatesInStore
+                          35 CertFindCertificateInStore
+                          25 CertDuplicateCertificateContext
+                          40 CertFreeCertificateContext
+                          46 CertGetCertificateContextProperty
+                          59 CertOpenStore
+
+    KERNEL32.dll
+             180012160 Import Address Table
+             180012A48 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         2DF GetStartupInfoW
+                         38E IsDebuggerPresent
+                         378 InitializeSListHead
+                         125 DisableThreadLibraryCalls
+                         2F8 GetSystemTimeAsFileTime
+                         226 GetCurrentThreadId
+                         222 GetCurrentProcessId
+                         45B QueryPerformanceCounter
+                         395 IsProcessorFeaturePresent
+                         5AC TerminateProcess
+                         221 GetCurrentProcess
+                         58D SetUnhandledExceptionFilter
+                         5CE UnhandledExceptionFilter
+                         4EE RtlVirtualUnwind
+                         4E7 RtlLookupFunctionEntry
+                         4DF RtlCaptureContext
+                         61F WideCharToMultiByte
+                         3FF MultiByteToWideChar
+                         26B GetLastError
+                         282 GetModuleHandleW
+
+    VCRUNTIME140.dll
+             180012278 Import Address Table
+             180012B60 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           8 __C_specific_handler
+                          25 __std_type_info_destroy_list
+                          1B __current_exception
+                          1C __current_exception_context
+                          3E memset
+                          3C memcpy
+
+    api-ms-win-crt-stdio-l1-1-0.dll
+             1800123D0 Import Address Table
+             180012CB8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 __acrt_iob_func
+
+    api-ms-win-crt-runtime-l1-1-0.dll
+             180012308 Import Address Table
+             180012BF0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          36 _initterm
+                          37 _initterm_e
+                          3F _seh_filter_dll
+                          18 _configure_narrow_argv
+                          33 _initialize_narrow_environment
+                          34 _initialize_onexit_table
+                          3C _register_onexit_function
+                          22 _execute_onexit_table
+                          1E _crt_atexit
+                          1D _crt_at_quick_exit
+                          16 _cexit
+                          67 terminate
+
+  Summary
+
+        1000 .00cfg
+        1000 .data
+        3000 .idata
+        1000 .pdata
+        4000 .rdata
+        1000 .reloc
+        B000 .text

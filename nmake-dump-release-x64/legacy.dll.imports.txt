@@ -1,0 +1,182 @@
+Microsoft (R) COFF/PE Dumper Version 14.43.34808.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file lib\ossl-modules\legacy.dll
+
+File Type: DLL
+
+  Section contains the following imports:
+
+    libcrypto-3-x64.dll
+             18002A258 Import Address Table
+             18002A918 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         6E8 EVP_DigestInit_ex
+                         6F0 EVP_DigestUpdate
+                         6E6 EVP_DigestFinal_ex
+                         D10 OSSL_PARAM_construct_utf8_string
+                         13B BF_set_key
+                         137 BF_ecb_encrypt
+                         134 BF_cbc_encrypt
+                         135 BF_cfb64_encrypt
+                         139 BF_ofb64_encrypt
+                         A07 IDEA_ecb_encrypt
+                         A0C IDEA_set_encrypt_key
+                         A0B IDEA_set_decrypt_key
+                         A05 IDEA_cbc_encrypt
+                         A06 IDEA_cfb64_encrypt
+                         A09 IDEA_ofb64_encrypt
+                         2D8 CAST_set_key
+                         2D5 CAST_ecb_encrypt
+                         2D2 CAST_cbc_encrypt
+                         2D3 CAST_cfb64_encrypt
+                         2D7 CAST_ofb64_encrypt
+                        101F SEED_set_key
+                        101C SEED_ecb_encrypt
+                        1019 SEED_cbc_encrypt
+                        101A SEED_cfb128_encrypt
+                        101E SEED_ofb128_encrypt
+                         F76 RC2_set_key
+                         F73 RC2_ecb_encrypt
+                         F70 RC2_cbc_encrypt
+                         F71 RC2_cfb64_encrypt
+                         75F EVP_MD_CTX_free
+                         43D DES_xcbc_encrypt
+                         439 DES_set_key_unchecked
+                         420 DES_cfb_encrypt
+                         425 DES_ecb_encrypt
+                         41F DES_cfb64_encrypt
+                         431 DES_ofb64_encrypt
+                         D08 OSSL_PARAM_construct_octet_string
+                         D02 OSSL_PARAM_construct_end
+                         6A9 EVP_CIPHER_fetch
+                         6D1 EVP_CIPHER_up_ref
+                         6AA EVP_CIPHER_free
+                         774 EVP_MD_fetch
+                         79B EVP_MD_up_ref
+                         775 EVP_MD_free
+                         9B3 EVP_get_cipherbyname
+                         9B4 EVP_get_digestbyname
+                         74A EVP_MAC_fetch
+                         74D EVP_MAC_free
+                         746 EVP_MAC_CTX_new
+                         740 EVP_MAC_CTX_free
+                         747 EVP_MAC_CTX_set_params
+                         59E ENGINE_by_id
+                         5A4 ENGINE_free
+                         5CE ENGINE_init
+                         5A3 ENGINE_finish
+                         D34 OSSL_PARAM_set_uint
+                         D31 OSSL_PARAM_set_octet_string
+                         D30 OSSL_PARAM_set_octet_ptr
+                         F59 RAND_bytes_ex
+                         768 EVP_MD_CTX_new
+                         77D EVP_MD_get_size
+                         D1A OSSL_PARAM_get_octet_string
+                         D20 OSSL_PARAM_get_uint64
+                         3C5 CRYPTO_free
+                         3D8 CRYPTO_memdup
+                         43A DES_set_odd_parity
+                         F64 RAND_priv_bytes_ex
+                          BC ASN1_TYPE_get_int_octetstring
+                          C2 ASN1_TYPE_set_int_octetstring
+                        1549 i2d_ASN1_TYPE
+                        145A d2i_ASN1_TYPE
+                          BA ASN1_TYPE_free
+                          BE ASN1_TYPE_new
+                         D32 OSSL_PARAM_set_size_t
+                         D1C OSSL_PARAM_get_size_t
+                         F7B RIPEMD160_Final
+                         F7C RIPEMD160_Init
+                         F7E RIPEMD160_Update
+                        1156 WHIRLPOOL_Final
+                        1157 WHIRLPOOL_Init
+                        1158 WHIRLPOOL_Update
+                         A2D MDC2_Final
+                         A2E MDC2_Init
+                         D1E OSSL_PARAM_get_uint
+                         D26 OSSL_PARAM_locate_const
+                         A2F MDC2_Update
+                         A23 MD4_Final
+                         A24 MD4_Init
+                         3BC CRYPTO_clear_free
+                         3F9 CRYPTO_zalloc
+                         3D6 CRYPTO_malloc
+                         A26 MD4_Update
+                         D38 OSSL_PARAM_set_utf8_ptr
+                         D2C OSSL_PARAM_set_int
+                         D25 OSSL_PARAM_locate
+                         CDD OSSL_LIB_CTX_free
+                         F75 RC2_ofb64_encrypt
+                         CE3 OSSL_LIB_CTX_new_child
+
+    KERNEL32.dll
+             18002A000 Import Address Table
+             18002A6C0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         5AC TerminateProcess
+                         4EE RtlVirtualUnwind
+                         45B QueryPerformanceCounter
+                         222 GetCurrentProcessId
+                         226 GetCurrentThreadId
+                         2F8 GetSystemTimeAsFileTime
+                         125 DisableThreadLibraryCalls
+                         378 InitializeSListHead
+                         4DF RtlCaptureContext
+                         4E7 RtlLookupFunctionEntry
+                         38E IsDebuggerPresent
+                         5CE UnhandledExceptionFilter
+                         58D SetUnhandledExceptionFilter
+                         2DF GetStartupInfoW
+                         395 IsProcessorFeaturePresent
+                         282 GetModuleHandleW
+                         221 GetCurrentProcess
+                         244 GetEnvironmentVariableW
+
+    VCRUNTIME140.dll
+             18002A100 Import Address Table
+             18002A7C0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          3C memcpy
+                          3E memset
+                           8 __C_specific_handler
+                          25 __std_type_info_destroy_list
+                          1B __current_exception
+                          1C __current_exception_context
+
+    api-ms-win-crt-runtime-l1-1-0.dll
+             18002A190 Import Address Table
+             18002A850 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          36 _initterm
+                          16 _cexit
+                          3F _seh_filter_dll
+                          18 _configure_narrow_argv
+                          33 _initialize_narrow_environment
+                          34 _initialize_onexit_table
+                          3C _register_onexit_function
+                          22 _execute_onexit_table
+                          1E _crt_atexit
+                          1D _crt_at_quick_exit
+                          37 _initterm_e
+                          67 terminate
+
+  Summary
+
+        1000 .00cfg
+        1000 .data
+        2000 .idata
+        2000 .pdata
+        A000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       1C000 .text

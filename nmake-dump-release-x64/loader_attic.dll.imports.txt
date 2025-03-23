@@ -1,0 +1,275 @@
+Microsoft (R) COFF/PE Dumper Version 14.43.34808.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file lib\engines-3\loader_attic.dll
+
+File Type: DLL
+
+  Section contains the following imports:
+
+    libcrypto-3-x64.dll
+             180014338 Import Address Table
+             180014DC8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         4C6 DSA_new
+                         49C DSA_free
+                         4A4 DSA_get0_pqg
+                         4CC DSA_set0_pqg
+                         4A2 DSA_get0_key
+                         4CB DSA_set0_key
+                         DDC PEM_def_callback
+                         F59 RAND_bytes_ex
+                         711 EVP_KDF_free
+                         710 EVP_KDF_fetch
+                         70A EVP_KDF_CTX_new
+                         705 EVP_KDF_CTX_free
+                         70E EVP_KDF_derive
+                         645 ERR_new
+                         65A ERR_set_debug
+                         65B ERR_set_error
+                         B48 OPENSSL_sk_num
+                         B52 OPENSSL_sk_value
+                         B46 OPENSSL_sk_new_null
+                         B4A OPENSSL_sk_pop_free
+                         B4B OPENSSL_sk_push
+                         B4F OPENSSL_sk_shift
+                         B55 OPENSSL_strlcat
+                         B57 OPENSSL_strncasecmp
+                         3F5 CRYPTO_set_mem_functions
+                         3F9 CRYPTO_zalloc
+                         3F6 CRYPTO_strdup
+                         3EC CRYPTO_secure_clear_free
+                         B37 OPENSSL_init_crypto
+                         1BF BIO_new_file
+                         1B4 BIO_new
+                         17E BIO_free
+                         15B BIO_ctrl
+                         1CF BIO_push
+                         1CC BIO_pop
+                         17F BIO_free_all
+                         170 BIO_f_buffer
+                         1EF BIO_snprintf
+                         646 ERR_peek_error
+                         64C ERR_peek_last_error
+                         615 ERR_add_error_data
+                         643 ERR_load_strings
+                         65E ERR_unload_strings
+                         623 ERR_get_next_error_library
+                         65D ERR_set_mark
+                         653 ERR_pop_to_mark
+                         61A ERR_clear_last_mark
+                        14E8 d2i_PrivateKey_ex
+                        1492 d2i_KeyParams
+                         831 EVP_PKEY_asn1_get_count
+                         82F EVP_PKEY_asn1_get0
+                         82D EVP_PKEY_asn1_find_str
+                         830 EVP_PKEY_asn1_get0_info
+                         2CF BUF_MEM_new
+                         2CC BUF_MEM_free
+                        14E0 d2i_PUBKEY
+                        12C9 X509_SIG_free
+                        1525 d2i_X509_SIG
+                        12CA X509_SIG_get0
+                        1398 X509_free
+                        150B d2i_X509
+                        13D9 X509_new_ex
+                         F95 RSA_free
+                        11E0 X509_CRL_free
+                        1515 d2i_X509_CRL
+                         D54 OSSL_STACK_OF_X509_free
+                        1257 X509_NAME_hash_ex
+                         F22 PKCS8_PRIV_KEY_INFO_free
+                        14D5 d2i_PKCS8_PRIV_KEY_INFO
+                         7AA EVP_PKCS82PKEY_ex
+                         DDF PEM_get_EVP_CIPHER_INFO
+                         DDE PEM_do_header
+                         DFB PEM_read_bio
+                         E17 PEM_read_bio_ex
+                         EA5 PKCS12_mac_present
+                         EAD PKCS12_pbe_crypt
+                         EB5 PKCS12_verify_mac
+                         E91 PKCS12_free
+                        14C1 d2i_PKCS12
+                         EAC PKCS12_parse
+                         D66 OSSL_STORE_INFO_new
+                         D69 OSSL_STORE_INFO_new_NAME
+                         D6A OSSL_STORE_INFO_new_PARAMS
+                         D6C OSSL_STORE_INFO_new_PUBKEY
+                         D6B OSSL_STORE_INFO_new_PKEY
+                         D67 OSSL_STORE_INFO_new_CERT
+                         D68 OSSL_STORE_INFO_new_CRL
+                         D65 OSSL_STORE_INFO_get_type
+                         D5D OSSL_STORE_INFO_get0_data
+                         D55 OSSL_STORE_INFO_free
+                         D8F OSSL_STORE_SEARCH_get_type
+                         D8C OSSL_STORE_SEARCH_get0_name
+                         D71 OSSL_STORE_LOADER_free
+                         D79 OSSL_STORE_LOADER_new
+                         D82 OSSL_STORE_LOADER_set_open
+                         D83 OSSL_STORE_LOADER_set_open_ex
+                         D7A OSSL_STORE_LOADER_set_attach
+                         D7C OSSL_STORE_LOADER_set_ctrl
+                         D7F OSSL_STORE_LOADER_set_expect
+                         D80 OSSL_STORE_LOADER_set_find
+                         D81 OSSL_STORE_LOADER_set_load
+                         D7D OSSL_STORE_LOADER_set_eof
+                         D7E OSSL_STORE_LOADER_set_error
+                         D7B OSSL_STORE_LOADER_set_close
+                         D9C OSSL_STORE_register_loader
+                         D9E OSSL_STORE_unregister_loader
+                        1146 UI_new
+                        1125 UI_free
+                        1118 UI_add_input_string
+                        111B UI_construct_prompt
+                        1119 UI_add_user_data
+                        1149 UI_process
+                        114C UI_set_method
+                         5BA ENGINE_get_first
+                         5C2 ENGINE_get_next
+                         602 ENGINE_set_id
+                         607 ENGINE_set_name
+                         5FD ENGINE_set_destroy_function
+                         603 ENGINE_set_init_function
+                         600 ENGINE_set_finish_function
+                         5C6 ENGINE_get_pkey_asn1_meths
+                         5CC ENGINE_get_static_state
+                        143A asn1_d2i_read_bio
+                         B0C OPENSSL_DIR_read
+                         B0B OPENSSL_DIR_end
+                         F99 RSA_get0_crt_params
+                         F9F RSA_get0_factors
+                         FA1 RSA_get0_key
+                         FE7 RSA_set0_crt_params
+                         FE8 RSA_set0_factors
+                         FE9 RSA_set0_key
+                         FF2 RSA_size
+                         F8E RSA_bits
+                         FCE RSA_new
+                         860 EVP_PKEY_free
+                         8C4 EVP_PKEY_new
+                         867 EVP_PKEY_get0_DSA
+                         8DC EVP_PKEY_set1_DSA
+                         869 EVP_PKEY_get0_RSA
+                         8DE EVP_PKEY_set1_RSA
+                         884 EVP_PKEY_get_id
+                         88F EVP_PKEY_is_a
+                         683 EVP_CIPHER_CTX_free
+                         697 EVP_CIPHER_CTX_new
+                         6DE EVP_DecryptFinal_ex
+                         6E2 EVP_DecryptUpdate
+                         6E0 EVP_DecryptInit_ex
+                         6FF EVP_EncryptFinal_ex
+                         703 EVP_EncryptUpdate
+                         701 EVP_EncryptInit_ex
+                         6AA EVP_CIPHER_free
+                         6A9 EVP_CIPHER_fetch
+                         D02 OSSL_PARAM_construct_end
+                         D08 OSSL_PARAM_construct_octet_string
+                         D10 OSSL_PARAM_construct_utf8_string
+                         27F BN_mod_exp
+                         256 BN_free
+                         2B8 BN_set_word
+                         245 BN_bn2lebinpad
+                         279 BN_lebin2bn
+                         298 BN_new
+                         2A0 BN_num_bits
+                         210 BN_CTX_free
+                         212 BN_CTX_new
+                         2B5 BN_set_flags
+                         1FF BIO_write
+                         1D1 BIO_read
+                         B2B OPENSSL_cleanse
+                         3BC CRYPTO_clear_free
+                         3C5 CRYPTO_free
+                        1512 d2i_X509_AUX
+                         3D6 CRYPTO_malloc
+
+    KERNEL32.dll
+             180014000 Import Address Table
+             180014A90 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         45B QueryPerformanceCounter
+                         4DF RtlCaptureContext
+                         4E7 RtlLookupFunctionEntry
+                         4EE RtlVirtualUnwind
+                         5CE UnhandledExceptionFilter
+                         58D SetUnhandledExceptionFilter
+                         221 GetCurrentProcess
+                         5AC TerminateProcess
+                         395 IsProcessorFeaturePresent
+                         282 GetModuleHandleW
+                         222 GetCurrentProcessId
+                         226 GetCurrentThreadId
+                         2F8 GetSystemTimeAsFileTime
+                         125 DisableThreadLibraryCalls
+                         378 InitializeSListHead
+                         38E IsDebuggerPresent
+                         2DF GetStartupInfoW
+
+    VCRUNTIME140.dll
+             1800140F8 Import Address Table
+             180014B88 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          3C memcpy
+                          42 strstr
+                          3E memset
+                          1C __current_exception_context
+                          1B __current_exception
+                          25 __std_type_info_destroy_list
+                           8 __C_specific_handler
+
+    api-ms-win-crt-runtime-l1-1-0.dll
+             1800141F0 Import Address Table
+             180014C80 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          34 _initialize_onexit_table
+                          67 terminate
+                          16 _cexit
+                          1D _crt_at_quick_exit
+                          36 _initterm
+                          37 _initterm_e
+                          3F _seh_filter_dll
+                          21 _errno
+                          33 _initialize_narrow_environment
+                          18 _configure_narrow_argv
+                          3C _register_onexit_function
+                          22 _execute_onexit_table
+                          1E _crt_atexit
+
+    api-ms-win-crt-string-l1-1-0.dll
+             1800142C0 Import Address Table
+             180014D50 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          8E strncmp
+                          68 isdigit
+                          97 tolower
+                          86 strcmp
+
+    api-ms-win-crt-filesystem-l1-1-0.dll
+             180014190 Import Address Table
+             180014C20 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          20 _stat64i32
+
+  Summary
+
+        1000 .00cfg
+        1000 .data
+        3000 .idata
+        1000 .pdata
+        3000 .rdata
+        1000 .reloc
+        E000 .text

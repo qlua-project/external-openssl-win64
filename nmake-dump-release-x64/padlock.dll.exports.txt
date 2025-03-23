@@ -1,0 +1,31 @@
+Microsoft (R) COFF/PE Dumper Version 14.43.34808.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file lib\engines-3\padlock.dll
+
+File Type: DLL
+
+  Section contains the following exports for padlock.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+           2 number of functions
+           2 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0000100A bind_engine = @ILT+5(bind_engine)
+          2    1 00001087 v_check = @ILT+130(v_check)
+
+  Summary
+
+        1000 .00cfg
+        1000 .data
+        2000 .idata
+        1000 .pdata
+        3000 .rdata
+        1000 .reloc
+        C000 .text

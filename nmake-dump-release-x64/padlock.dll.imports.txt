@@ -1,0 +1,112 @@
+Microsoft (R) COFF/PE Dumper Version 14.43.34808.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file lib\engines-3\padlock.dll
+
+File Type: DLL
+
+  Section contains the following imports:
+
+    libcrypto-3-x64.dll
+             180012240 Import Address Table
+             180012670 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         696 EVP_CIPHER_CTX_iv_noconst
+                         695 EVP_CIPHER_CTX_iv
+                         68C EVP_CIPHER_CTX_get_key_length
+                         694 EVP_CIPHER_CTX_is_encrypting
+                         684 EVP_CIPHER_CTX_get0_cipher
+                         6B3 EVP_CIPHER_get_mode
+                         6C8 EVP_CIPHER_meth_set_get_asn1_params
+                         6CC EVP_CIPHER_meth_set_set_asn1_params
+                         68E EVP_CIPHER_CTX_get_num
+                         6CA EVP_CIPHER_meth_set_init
+                         6C9 EVP_CIPHER_meth_set_impl_ctx_size
+                         6C7 EVP_CIPHER_meth_set_flags
+                         6CB EVP_CIPHER_meth_set_iv_length
+                         6BC EVP_CIPHER_meth_free
+                         6C3 EVP_CIPHER_meth_new
+                         1EF BIO_snprintf
+                         B37 OPENSSL_init_crypto
+                         B2B OPENSSL_cleanse
+                         6A0 EVP_CIPHER_CTX_set_num
+                         67D EVP_CIPHER_CTX_buf_noconst
+                         3BF CRYPTO_ctr128_encrypt_ctr32
+                         5CC ENGINE_get_static_state
+                         5EF ENGINE_set_ciphers
+                         603 ENGINE_set_init_function
+                         5ED ENGINE_set_RAND
+                         607 ENGINE_set_name
+                         602 ENGINE_set_id
+                         6AE EVP_CIPHER_get_asn1_iv
+                         6CF EVP_CIPHER_set_asn1_iv
+                         6C6 EVP_CIPHER_meth_set_do_cipher
+                         68A EVP_CIPHER_CTX_get_cipher_data
+                         3F5 CRYPTO_set_mem_functions
+
+    KERNEL32.dll
+             180012000 Import Address Table
+             180012430 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         222 GetCurrentProcessId
+                         226 GetCurrentThreadId
+                         2F8 GetSystemTimeAsFileTime
+                         125 DisableThreadLibraryCalls
+                         378 InitializeSListHead
+                         4DF RtlCaptureContext
+                         4E7 RtlLookupFunctionEntry
+                         282 GetModuleHandleW
+                         395 IsProcessorFeaturePresent
+                         2DF GetStartupInfoW
+                         58D SetUnhandledExceptionFilter
+                         5CE UnhandledExceptionFilter
+                         38E IsDebuggerPresent
+                         4EE RtlVirtualUnwind
+                         45B QueryPerformanceCounter
+
+    VCRUNTIME140.dll
+             1800120E8 Import Address Table
+             180012518 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          25 __std_type_info_destroy_list
+                          1B __current_exception
+                          1C __current_exception_context
+                          3C memcpy
+                           8 __C_specific_handler
+                          3E memset
+
+    api-ms-win-crt-runtime-l1-1-0.dll
+             180012178 Import Address Table
+             1800125A8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1D _crt_at_quick_exit
+                          1E _crt_atexit
+                          22 _execute_onexit_table
+                          3C _register_onexit_function
+                          34 _initialize_onexit_table
+                          33 _initialize_narrow_environment
+                          18 _configure_narrow_argv
+                          3F _seh_filter_dll
+                          37 _initterm_e
+                          36 _initterm
+                          67 terminate
+                          16 _cexit
+
+  Summary
+
+        1000 .00cfg
+        1000 .data
+        2000 .idata
+        1000 .pdata
+        3000 .rdata
+        1000 .reloc
+        C000 .text

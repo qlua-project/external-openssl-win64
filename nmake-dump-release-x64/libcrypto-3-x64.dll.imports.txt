@@ -1,0 +1,319 @@
+Microsoft (R) COFF/PE Dumper Version 14.43.34808.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file bin\libcrypto-3-x64.dll
+
+File Type: DLL
+
+  Section contains the following imports:
+
+    WS2_32.dll
+             18063E548 Import Address Table
+             18063F2C0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                             Ordinal   115
+                             Ordinal    18
+                             Ordinal     8
+                             Ordinal     7
+                             Ordinal     6
+                             Ordinal     1
+                             Ordinal   111
+                             Ordinal   112
+                             Ordinal    55
+                             Ordinal    56
+                             Ordinal    52
+                             Ordinal    51
+                             Ordinal    15
+                             Ordinal    12
+                             Ordinal    11
+                             Ordinal     9
+                             Ordinal     2
+                             Ordinal     3
+                             Ordinal     4
+                             Ordinal    13
+                             Ordinal    21
+                             Ordinal    23
+                             Ordinal    22
+                             Ordinal    16
+                             Ordinal    19
+                             Ordinal     5
+                             Ordinal    17
+                             Ordinal    20
+                             Ordinal   116
+                             Ordinal    10
+
+    ADVAPI32.dll
+             18063E000 Import Address Table
+             18063ED78 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          D2 CryptGenRandom
+                         2B8 RegisterEventSourceW
+                         2CA ReportEventW
+                          C2 CryptAcquireContextW
+                          DC CryptReleaseContext
+                          ED DeregisterEventSource
+
+    CRYPT32.dll
+             18063E090 Import Address Table
+             18063EE08 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          35 CertFindCertificateInStore
+                          40 CertFreeCertificateContext
+                          5B CertOpenSystemStoreW
+                          12 CertCloseStore
+
+    USER32.dll
+             18063E408 Import Address Table
+             18063F180 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         1D9 GetUserObjectInformationW
+                         1AF GetProcessWindowStation
+                         28B MessageBoxW
+
+    KERNEL32.dll
+             18063E108 Import Address Table
+             18063EE80 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         5AC TerminateProcess
+                         221 GetCurrentProcess
+                         476 ReadConsoleA
+                         515 SetConsoleMode
+                         206 GetConsoleMode
+                          EC CreateSemaphoreA
+                         248 GetExitCodeThread
+                         5F8 WaitForSingleObject
+                         4C4 ReleaseSemaphore
+                         222 GetCurrentProcessId
+                         5C7 TryEnterCriticalSection
+                         3CD LeaveCriticalSection
+                         139 EnterCriticalSection
+                         373 InitializeCriticalSection
+                         5A8 SystemTimeToFileTime
+                         2F6 GetSystemTime
+                         5BF TlsFree
+                         5C1 TlsSetValue
+                         5C0 TlsGetValue
+                         2F8 GetSystemTimeAsFileTime
+                         4DF RtlCaptureContext
+                         4E7 RtlLookupFunctionEntry
+                         5CE UnhandledExceptionFilter
+                         58D SetUnhandledExceptionFilter
+                         395 IsProcessorFeaturePresent
+                         38E IsDebuggerPresent
+                         2DF GetStartupInfoW
+                         45B QueryPerformanceCounter
+                         378 InitializeSListHead
+                         114 DeleteCriticalSection
+                         480 ReadConsoleW
+                         5BE TlsAlloc
+                         226 GetCurrentThreadId
+                           1 AcquireSRWLockShared
+                           0 AcquireSRWLockExclusive
+                         4EE RtlVirtualUnwind
+                          A4 ConvertFiberToThread
+                          A8 ConvertThreadToFiberEx
+                         5A6 SwitchToFiber
+                         115 DeleteFiber
+                          C4 CreateFiberEx
+                         2EE GetSystemDirectoryA
+                         1B5 FreeLibrary
+                         2BC GetProcAddress
+                         3D1 LoadLibraryA
+                         1B0 FormatMessageA
+                         26B GetLastError
+                         54D SetLastError
+                          89 CloseHandle
+                         3D4 LoadLibraryW
+                         244 GetEnvironmentVariableW
+                         2E1 GetStdHandle
+                         259 GetFileType
+                         633 WriteFile
+                         282 GetModuleHandleW
+                         3FF MultiByteToWideChar
+                         61F WideCharToMultiByte
+                         1BC GetACP
+                         281 GetModuleHandleExW
+                         2F2 GetSystemInfo
+                         5E7 VirtualAlloc
+                         5ED VirtualProtect
+                         5EA VirtualFree
+                         5EC VirtualLock
+                         17F FindClose
+                         18A FindFirstFileW
+                         196 FindNextFileW
+                         59D Sleep
+                         379 InitializeSRWLock
+                         4C2 ReleaseSRWLockExclusive
+                         4C3 ReleaseSRWLockShared
+
+    VCRUNTIME140.dll
+             18063E478 Import Address Table
+             18063F1F0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1B __current_exception
+                           8 __C_specific_handler
+                          46 wcsstr
+                          1C __current_exception_context
+                          42 strstr
+                          40 strchr
+                          3D memmove
+                          41 strrchr
+                          3B memcmp
+                          3E memset
+                          3C memcpy
+                          3A memchr
+                          25 __std_type_info_destroy_list
+
+    api-ms-win-crt-stdio-l1-1-0.dll
+             18063E980 Import Address Table
+             18063F6F8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          11 __stdio_common_vswprintf
+                           D __stdio_common_vsprintf
+                          8A fwrite
+                          57 _setmode
+                          89 ftell
+                          62 _wfopen
+                          7D fopen
+                          87 fseek
+                          83 fread
+                           3 __stdio_common_vfprintf
+                          7A fgets
+                          72 clearerr
+                          97 setbuf
+                          77 fflush
+                          76 ferror
+                          75 feof
+                          74 fclose
+                          80 fputs
+                           0 __acrt_iob_func
+                           F __stdio_common_vsprintf_s
+                          26 _fileno
+                          10 __stdio_common_vsscanf
+
+    api-ms-win-crt-convert-l1-1-0.dll
+             18063E6C0 Import Address Table
+             18063F438 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          64 strtoul
+                          50 atoi
+                          61 strtol
+
+    api-ms-win-crt-string-l1-1-0.dll
+             18063EAA8 Import Address Table
+             18063F820 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          97 tolower
+                          93 strspn
+                          8A strcspn
+                          89 strcpy_s
+                          8E strncmp
+                          86 strcmp
+                          85 strcat_s
+                          6E isspace
+                          29 _strdup
+                          68 isdigit
+                          8F strncpy
+                          90 strncpy_s
+
+    api-ms-win-crt-time-l1-1-0.dll
+             18063EB70 Import Address Table
+             18063F8E8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          20 _gmtime64_s
+                          30 _time64
+
+    api-ms-win-crt-utility-l1-1-0.dll
+             18063EBD8 Import Address Table
+             18063F950 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          19 qsort
+
+    api-ms-win-crt-heap-l1-1-0.dll
+             18063E800 Import Address Table
+             18063F578 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          18 free
+                          17 calloc
+                          1A realloc
+                          19 malloc
+
+    api-ms-win-crt-runtime-l1-1-0.dll
+             18063E878 Import Address Table
+             18063F5F0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          20 _endthreadex
+                          14 _beginthreadex
+                          34 _initialize_onexit_table
+                          33 _initialize_narrow_environment
+                          3C _register_onexit_function
+                          22 _execute_onexit_table
+                          1E _crt_atexit
+                          65 strerror_s
+                          63 signal
+                          21 _errno
+                          1D _crt_at_quick_exit
+                          16 _cexit
+                          3F _seh_filter_dll
+                          61 raise
+                          67 terminate
+                          37 _initterm_e
+                          36 _initterm
+                          23 _exit
+                          18 _configure_narrow_argv
+
+    api-ms-win-crt-filesystem-l1-1-0.dll
+             18063E790 Import Address Table
+             18063F508 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           4 _chmod
+                          20 _stat64i32
+                          11 _fstat64i32
+
+    api-ms-win-crt-environment-l1-1-0.dll
+             18063E730 Import Address Table
+             18063F4A8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          10 getenv
+
+  Summary
+
+        1000 .00cfg
+        9000 .data
+        3000 .idata
+       33000 .pdata
+      191000 .rdata
+        F000 .reloc
+        1000 .rsrc
+      470000 .text
