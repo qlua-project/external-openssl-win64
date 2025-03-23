@@ -32,10 +32,6 @@ goto END
 
 :BUILD
 echo ----------------------------------------------------------
-echo %CD%
-:: NMAKE : fatal error U1065: invalid option '-'
-:: The error "NMAKE : fatal error U1065: invalid option '-'" typically occurs when building applications using Microsoft Visual C++ tools, and it is often related to an improperly set MAKEFLAGS environment variable
-set MAKEFLAGS=
 nmake
 
 if ERRORLEVEL==1 goto END
@@ -44,8 +40,6 @@ goto END
 
 :INSTALL
 echo ----------------------------------------------------------
-echo %CD%
-set MAKEFLAGS=
 nmake install
 
 :END
