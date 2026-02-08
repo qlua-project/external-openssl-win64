@@ -1,7 +1,7 @@
 @echo off
 setlocal
 
-call "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvars64.bat" > NUL
+call "%~dp0.buildtools.bat" -startdir=none > NUL
 set DUMPBIN_DIR=nmake-dump-release-x64
 
 pushd %~dp0
