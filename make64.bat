@@ -24,7 +24,7 @@ if /I "%1" == "" set _CONFIGBUILD=yes
 
 :CONFIG
 echo ----------------------------------------------------------
-perl Configure --prefix=%INSTALL_DIR% --openssldir=%INSTALL_DIR%ssl VC-WIN64A
+perl Configure --prefix="%INSTALL_DIR%" --openssldir="%INSTALL_DIR%ssl" VC-WIN64A
 
 if ERRORLEVEL==1 goto END
 if NOT "%_CONFIGBUILD%" == "" goto BUILD
