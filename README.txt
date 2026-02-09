@@ -5,6 +5,13 @@ Compilation Notes
 https://github.com/openssl/openssl/blob/master/NOTES-WINDOWS.md
 https://github.com/openssl/openssl/blob/master/INSTALL.md#windows
 
+Enable and Disable Features
+
+https://github.com/openssl/openssl/blob/master/INSTALL.md#compression-algorithm-flags
+https://github.com/openssl/openssl/blob/master/INSTALL.md#enable-and-disable-features
+https://github.com/openssl/openssl/blob/master/INSTALL.md#configure-openssl
+
+
 Default Compiler Options
 
 "cl" /Zs /showIncludes /Zi /Fdossl_static.pdb /Gs0 /GF /Gy /MD /W3 /wd4090 /nologo /O2
