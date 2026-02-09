@@ -1,0 +1,6 @@
+/dist*
+/bin/**/*.pdb
+/bin/**/*.pl
+/lib/**/*.pdb
+/lib/**/*.pl
+/html
