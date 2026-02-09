@@ -24,7 +24,11 @@ if /I "%1" == "" set _CONFIGBUILD=yes
 
 :CONFIG
 echo ----------------------------------------------------------
-perl Configure --prefix="%INSTALL_DIR%" --openssldir="%INSTALL_DIR%ssl" VC-WIN64A
+if /I "%2" == "/global" (
+	perl Configure --prefix="%LOCALAPPDATA%\openssl" --openssldir="%APPDATA%\openssl" VC-WIN64A
+) else (
+	perl Configure --prefix="%INSTALL_DIR%" --openssldir="%INSTALL_DIR%ssl" VC-WIN64A
+)
 
 if ERRORLEVEL==1 goto END
 if NOT "%_CONFIGBUILD%" == "" goto BUILD
