@@ -25,8 +25,10 @@ if /I "%1" == "" set _CONFIGBUILD=yes
 :CONFIG
 echo ----------------------------------------------------------
 if /I "%2" == "/global" (
+	echo perl Configure --prefix=%LOCALAPPDATA%\openssl --openssldir=%APPDATA%\openssl VC-WIN64A
 	perl Configure --prefix=%LOCALAPPDATA%\openssl --openssldir=%APPDATA%\openssl VC-WIN64A
 ) else (
+	echo perl Configure --prefix=%INSTALL_DIR% --openssldir=%INSTALL_DIR%ssl VC-WIN64A
 	perl Configure --prefix=%INSTALL_DIR% --openssldir=%INSTALL_DIR%ssl VC-WIN64A
 )
 
