@@ -11,6 +11,10 @@ https://github.com/openssl/openssl/blob/master/INSTALL.md#compression-algorithm-
 https://github.com/openssl/openssl/blob/master/INSTALL.md#enable-and-disable-features
 https://github.com/openssl/openssl/blob/master/INSTALL.md#configure-openssl
 
+Environment variables to override compiled-in defaults
+
+https://docs.openssl.org/master/man7/openssl-env
+
 
 Default Compiler Options
 
